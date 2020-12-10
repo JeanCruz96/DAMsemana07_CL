@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.dam.dam_semana_cl.NotaFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_notas"
         tools:layout="@layout/fragment_item_list" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.dam.dam_semana_cl.NotaFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_favoritas"
         tools:layout="@layout/fragment_item_list" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.dam.dam_semana_cl.NotaFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_user_profile"
         tools:layout="@layout/fragment_item_list" />
 </navigation>
